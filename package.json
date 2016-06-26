@@ -24,13 +24,13 @@
     "gulp": "^3.9.0",
     "jsdom": "^8.4.0",
     "mocha": "^2.4.5",
-    "react": "^0.14.0",
     "react-addons-test-utils": "^15.0.1",
     "react-component-gulp-tasks": "^0.7.6",
     "react-dom": "^0.14.0"
   },
   "peerDependencies": {
-    "react": "^0.14.0"
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
   },
   "browserify-shim": {
     "react": "global:React"
